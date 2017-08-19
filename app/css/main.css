@@ -178,6 +178,7 @@ input[type=submit]:hover{
 /*set padding on the sidebar p tags*/
 aside p{
 	margin-left: 10px;
+	width: 90%;
 }
 
 /*set padding on the sidebar input tag*/
