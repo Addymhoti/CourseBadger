@@ -1,0 +1,267 @@
+/*	The CSS file for TheCourseBadger Application	*/
+/*	Written by Admire Musimwa	*/
+/*	10 September 2017*/
+
+html, body, div, h1, h2, h3,
+p,ol,ul,li,a, img{
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+body{
+	padding: 20px 20px 20px 20px;
+	background-color: #cccccc;
+	color: #000000;
+	/*font-family: Helvetica, Arial, sans-serif;*/
+}
+
+h1{
+	margin: 10px 0 15px 0;
+	padding-top: 15px;
+	font-size: 3em;
+	color: #000;
+	/*text-shadow: 1px 2px 10px 2px #000; */
+	 
+}
+
+h2{
+	margin: 10px 20px 20px 30px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-size:30px;
+	color: #222222;
+	border-bottom: 1px solid skyblue;
+	box-shadow: 1px 2px 20px skyblue;
+}
+
+h3{
+	margin: 10px 0 10px 10px;
+	text-align: left;
+	padding-bottom: 3px;
+	margin-top:20px;
+	font-size:25px;
+	color: #333333;	
+}
+
+p{
+	line-height: 30px;
+	text-align: left;
+	font-size: 20px;
+	
+}
+
+a{
+	color: #0000ff;	
+}
+
+ul{
+	padding-left: 50px;
+	line-height: 30px;
+	font-size: 20px;
+}
+
+i{
+	font-size: 20px;
+	font-style: normal;
+	color: #0000ff;
+	font-weight: bolder;
+}
+
+/*adjust the properties of the header class*/
+header{
+	display: block;
+	height:auto;
+	background-color:#ffffff;
+	margin: 0 15px 30px 15px;
+}
+
+/*adjust the navigation menu*/
+nav{
+	background-color: #303030;
+	text-align:center;
+	height: auto;
+}
+
+/*float the sidebar to the right*/
+aside{
+	float: right;
+	margin: 0 15px 0 20px;
+	padding: 0 10px 10px 10px;
+	background-color: #ffffff;
+}
+
+/*adjust the properties of the main class*/
+main{
+	margin: 0 15px 0 15px;
+	overflow: auto;
+	background-color: #ffffff;
+}
+
+/*adjust the properties of the footer class*/
+footer{
+	height:auto;
+	background-color:#303030;
+	text-align:center;
+	color: #ffffff;
+	margin: 20px 15px 30px 15px;
+	border: 1px solid #000000;
+}
+
+/* edit the upper header part*/
+.upper-header{
+	display: block;
+	text-align:right;
+	color: #000000;
+	height: 120px;
+	padding: 5px auto 5px auto;
+	margin:5px;
+}
+
+/*set the margin properties of the contact form*/
+.contact{
+	margin: 20px 20px 20px 20px;
+}
+
+/*arrange the badges to fit the width of the page*/
+.badge_area{
+	width: 220px;
+	height: 220px;
+	float: left;
+	margin: 0 30px 30px 30px;
+	text-align: center;
+	border: 2px solid #000000;
+	padding: 5px;
+}
+
+/*adjust the properties of the tags on the contact form*/
+.contact input[type=text], input[type=email], textarea{
+	display: block;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin: 6px 20px 16px 0px;
+	resize: vertical;	
+}
+
+/*style the submit button for the contact form*/
+.contact input[type=submit]{
+	background-color: #4caf50;
+	color: #ffffff;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+
+/*resize the input of type text to full width*/
+.contact input[type=text], .contact textarea, .contact input[type=email]{
+	width:100%;
+}
+
+
+/*change the color of the buttor when you hover*/
+input[type=submit]:hover{
+	background-color: skyblue;
+}
+
+/*set the size of the images in badges to 200px*/
+.badge_area img{
+	height: 200px;
+}
+
+
+/*set padding on the sidebar p tags*/
+aside p{
+	margin-left: 10px;
+}
+
+/*set padding on the sidebar input tag*/
+aside input[type=search]{
+	margin-left: 10px;
+}
+
+.flag{
+	color: #ff0000;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*add some padding between badges*/
+.badge_area a{
+	padding:10px;
+}
+
+/*align the paragraph and the image to be next to each other*/
+.edu p{
+	margin: 0 10px 10px 10px;
+	overflow: auto;
+}
+
+/*adjust the properties of the UFH picture and float it to the right*/
+.edu img{
+	float: right;
+	margin: 0 10px 0 10px;
+	border-radius: 100%;
+	border: 2px solid #000000;
+}
+
+/*decorate the navigation menu*/
+nav a{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 5px 15px 5px 15px;
+}
+
+/*adjust navigation padding and margin*/
+nav ul{
+	padding: 5px;
+	margin:2px;
+}
+
+/*set the navigation list to be inline*/
+nav li{
+	display:inline;
+}
+
+/*change the color of the navigation menu when hovering*/
+nav a:hover{
+	/*color: #ffffff;*/
+	background-color: skyblue;
+	border-radius: 2px;
+}
+
+/*adjust the properties of the logo*/
+.upper-header #logo{
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 1px solid #000000;
+	border-radius: 100%;
+	margin: 10px 10px 5px 20px;
+}
+
+/*adjust the properties of the picture floating to the right of the header part of the website*/
+.upper-header #icon{
+	float:right; 
+	height:100px;
+	border: 1px solid #ffffff;
+	border-radius: 100%;
+	margin: 10px;
+}
+
+/*prperties of the anchor tag in the footer*/
+footer a{
+	color:#ffffff;
+}
+
+/*properties of the paragraph tag in the footer*/
+footer p{
+	display: inline;
+	font-size:15px;
+	margin: 5px auto 5px auto;;
+}
