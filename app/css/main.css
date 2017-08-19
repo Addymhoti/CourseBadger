@@ -212,7 +212,7 @@ aside input[type=search]{
 
 /*decorate the navigation menu*/
 nav a{
-	text-decoration: none;
+	text-decoration: none !important;
 	color: #ffffff;
 	font-weight: bold;
 	padding: 5px 15px 5px 15px;
