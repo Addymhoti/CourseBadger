@@ -1,7 +1,7 @@
 <main>
 	<h2>Home</h2>
 	<div class="edu">
-		<img src="../app/images/forthare.jpg" alt="UFH photo" >
+		
 		<h3>About</h3>
 		<p>Admire Musimwa is a <strong>results-driven</strong> junior developer with <em>good problem
 		solving skills</em>. Currently, he is looking for a software development
@@ -10,7 +10,7 @@
 		a developer and whilst progressing the interests of the company.</p>
 			
 		<h3>Education</h3>
-
+		<img src="../app/images/forthare.jpg" alt="UFH photo" >
 		<p>Admire is a current holder of a honours degree in Computer Science
 		from the university of Fort Hare. He continues to advance his skills 
 		in programming through online learning platforms such as CodeSchool. Click 
