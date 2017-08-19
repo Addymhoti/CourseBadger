@@ -90,7 +90,7 @@ aside{
 	margin: 0 10px 0 10px;
 	padding: 0 10px 10px 10px;
 	background-color: #ffffff;
-	width:30%;
+	width:40%;
 }
 
 /*adjust the properties of the main class*/
@@ -178,7 +178,6 @@ input[type=submit]:hover{
 /*set padding on the sidebar p tags*/
 aside p{
 	margin-left: 10px;
-	width: 90%;
 }
 
 /*set padding on the sidebar input tag*/
