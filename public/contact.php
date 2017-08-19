@@ -14,11 +14,13 @@ require __DIR__ . '/../app/src/send-email.php';
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<div class="container">
 		<?php
 			include('../app/views/header.php');  
 			include('../app/views/sidebar.php');
 			include('../app/views/contact-form.php');
 			include('../app/views/footer.php');
 		?>
+		</div>
 	</body>
 </html>

@@ -12,6 +12,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+		<div class="container">
 		<?php
 			require __DIR__ . '/../app/src/get-badges-json.php';
 			include('../app/views/header.php');  
@@ -19,5 +20,6 @@
 			include('../app/views/main-badger.php');
 			include('../app/views/footer.php');
 		?>
+		</div>
 	</body>
 </html>
