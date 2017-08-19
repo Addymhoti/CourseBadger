@@ -12,7 +12,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		
+		<div class="container">
 
 		<?php 
 			/*import the header elements of the site*/
@@ -24,5 +24,6 @@
 			/*import the footer of the site */
 			include('../app/views/footer.php');
 		?>
+		</div>
 	</body>
 </html>
