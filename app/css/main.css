@@ -125,8 +125,8 @@ footer{
 
 /*arrange the badges to fit the width of the page*/
 .badge_area{
-	width: 220px;
-	height: 220px;
+	width: auto;
+	height: auto;
 	float: left;
 	margin: 0 30px 30px 30px;
 	text-align: center;
@@ -169,7 +169,7 @@ input[type=submit]:hover{
 
 /*set the size of the images in badges to 200px*/
 .badge_area img{
-	height: 200px;
+	height: 180px;
 }
 
 
