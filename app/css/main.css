@@ -87,10 +87,10 @@ nav{
 /*float the sidebar to the right*/
 aside{
 	float: right;
-	margin: 0 auto 0 auto;
+	margin: 0 10px 0 10px;
 	padding: 0 10px 10px 10px;
 	background-color: #ffffff;
-	width:auto;
+	width:20%;
 }
 
 /*adjust the properties of the main class*/
