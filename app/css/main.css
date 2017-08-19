@@ -42,6 +42,7 @@ h3{
 	margin-top:20px;
 	font-size:25px;
 	color: #333333;	
+	font-weight: bold;
 }
 
 p{
@@ -203,8 +204,8 @@ aside input[type=search]{
 
 /*adjust the properties of the UFH picture and float it to the right*/
 .edu img{
-	float: right;
-	margin: 0 10px 0 10px;
+	margin: 10px auto 10px auto;
+	display: block;
 	border-radius: 100%;
 	border: 2px solid #000000;
 }
